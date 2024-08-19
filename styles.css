@@ -250,12 +250,19 @@ table {
 }
 
  table thead {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #EEEEEE;
  }
+table th {
+    color: #B5B7C0;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
 
  table td {
     border-bottom: 1px solid #EEEEEE;
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-size: 14px;
     font-weight: 500;
     color: #292D32;
