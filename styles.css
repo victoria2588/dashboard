@@ -1,0 +1,259 @@
+:root {
+    --font: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-family: var(--font);
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    /* background-color: #9197B3; */
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 428px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+.sidebar-container{
+    background-color: #ffffff;
+    /* background-color: bisque; */
+    width: 306px;
+    padding: 36px 28px;
+}
+
+.sidebar-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.sidebar-logo{
+    display: flex;
+    gap: 8px;
+}
+
+.sidebar-logo-image {
+    width: 37px;
+    height: 37px;
+}
+
+.sidebar-logo-text {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.sidebar-logo-text-span {
+    font-size: 10px;
+    color: #838383;
+
+}
+
+.sidebar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sidebar-list-item {
+}
+
+.sidebar-list-link {
+    font-size: 14px;
+    color: #9197B3;
+    /* line-height: 1.5;
+    letter-spacing: -0.01em; */
+
+    display: flex;
+    /* flex-direction: column; */
+    column-gap: 14px;
+    /* row-gap: 40px; */
+    align-items: center;
+
+
+}
+
+/* .sidebar-list-link:hover,
+.sidebar-list-link:focus{
+    background-color: #ada2d4;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-right: 3px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    color: #ffffff;
+    fill: #ffffff;
+    stroke: #ffffff;
+} */
+
+
+.sidebar-icon-chevron {
+    margin-left: auto;
+}
+
+.sidebar-list-link-current {
+    background-color: #5932EA;
+    padding-left: 16px;
+    padding-top:  6px;
+    padding-right:  3px;
+    padding-bottom:  16px;
+    border-radius: 8px;
+    color: #ffffff;
+
+    
+}
+
+.sidebar-user-info {
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+}
+    
+.sidebar-user-name{
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        color: #000000;
+    }
+
+.sidebar-user-job {
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.main-container {
+    background-color: #F9FBFF;
+    padding: 41px 71px;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+}
+
+.section-welcome{}
+
+.welcome-title {
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0em;
+}
+
+.section-products{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 30px 38px;
+    width: 968px;
+}
+ 
+.products-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-title-thumb {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.products-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.products-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #16C098;
+}
+
+.search-field {
+    background-color: #F9FBFF;
+    border-radius: 10px;
+    display: flex;
+    padding-left: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    height: 38px;
+    align-items: center;
+    max-width: 216px;
+}
+
+.search-input{
+    background-color: #F9FBFF;
+    border-color: transparent;
+    outline: none;
+    color: 292D32;
+    font-size: 14px;
+}
+
+.search-input::placeholder{
+    color:#B5B7C0;
+    font-size: 12px;
+}
+/* .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+} */
+

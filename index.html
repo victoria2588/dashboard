@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
+        integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body >
+    <div class="container">
+        <aside class="sidebar-container">
+            <nav class="sidebar-navigation">
+                <div class="sidebar-logo">
+                    <img class="sidebar-logo-image" src="logo.png" alt="logotype">
+                    <h1 class="sidebar-logo-text">Dashboard <span class="sidebar-logo-text-span">v.01</span></h1>
+                </div>
+                <!-- <div class="sidebar-logo">
+                    <a class="sidebar-logo-container" href="#">
+                    <img class="sidebar-logo-image" src="logo.png" alt="logotype">
+                    <h1 class="sidebar-logo-text">Dashboard <span class="sidebar-logo-text-span">v.01</span></h1>
+                    </a>
+                </div> -->
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a class="sidebar-list-link" href="index.html">
+                        <svg class="sidebar-list-icon" width="24" height="24">
+                            <use href="icons.svg#icon-key-square"></use>
+                        </svg>
+                        Dashboard
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a class="sidebar-list-link" href="index.html">
+                        <svg class="sidebar-list-icon" width="24" height="24">
+                            <use href="icons.svg#icon-d-square"></use>
+                        </svg>
+                        Product 
+                        <svg class="sidebar-icon-chevron" width="16" height="16">
+                            <use href="icons.svg#icon-chevron-right"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a class="sidebar-list-link sidebar-list-link-current" href="index.html">
+                        <svg class="sidebar-list-icon" width="24" height="24">
+                            <use href="icons.svg#icon-user-square"></use>
+                        </svg>
+                        Customers
+                        <svg class="sidebar-icon-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 12L10 8L6 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a class="sidebar-list-link" href="index.html">
+                        <svg class="sidebar-list-icon" width="24" height="24">
+                            <use href="icons.svg#icon-wallet-money"></use>
+                        </svg>
+                        Income
+                        <svg class="sidebar-icon-chevron" width="16" height="16">
+                            <use href="icons.svg#icon-chevron-right"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a class="sidebar-list-link" href="index.html">
+                        <svg class="sidebar-list-icon" width="24" height="24">
+                            <use href="icons.svg#icon-discount-shape"></use>
+                        </svg>
+                        Promote
+                        <svg class="sidebar-icon-chevron" width="16" height="16">
+                            <use href="icons.svg#icon-chevron-right"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a class="sidebar-list-link" href="index.html">
+                        <svg class="sidebar-list-icon" width="24" height="24">
+                            <use href="icons.svg#icon-message-question"></use>
+                        </svg>
+                        Help
+                        <svg class="sidebar-icon-chevron" width="16" height="16">
+                            <use href="icons.svg#icon-chevron-right"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar-user-info">
+                <img src="avatar.jpg" alt="">
+                 <div>
+                    <p class="sidebar-user-name">Evano</p>
+                    <p class="sidebar-user-job">Project Manager</p>
+                </div>
+            </div>
+        </aside>
+    
+    <main class="main-container">
+    
+        <section class="section-welcome"><h2 class="welcome-title">Hello Evano 👋🏼,</h2></section>
+        <section class="section-products">
+            <div class="products-wrapper">
+                <div class="products-title-thumb">
+                    <h3 class="products-title">All Customers</h3>
+                    <p class="products-subtitle">Active Members</p>
+                </div>
+                <label class="search-field" for="user_search">
+                    <svg width="24" height="24">
+                        <use href="icons.svg#icon-search"></use>
+                    </svg>
+                    <input 
+                        class="search-input"
+                        type="search"
+                        name="user_search"
+                        placeholder="Search"
+                        aria-label="Search for any term">
+                </label>
+            </div>
+        </section>
+    </main>
+    </div>
+</body>
+</html>
