@@ -240,13 +240,10 @@ a {
     font-size: 12px;
 }
 
-/* .products-table{
-    width: 100%;
-} */
-
 table {
     border-collapse: collapse;
     width: 100%;
+    margin-top: 40px;
 }
 
  table thead {
@@ -267,6 +264,29 @@ table th {
     font-weight: 500;
     color: #292D32;
  }
+
+ .button {
+    outline: transparent;
+    border: transparent;
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 80px;
+ }
+
+.button-inactive{
+    background-color: #FFC5C5;
+    border: 1px solid #DF0404;
+    color: #DF0404;
+}
+
+.button-active {
+    background-color: #00B087;
+    border: 1px solid #008767;
+    color: #008767;
+}
+
 /* .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
