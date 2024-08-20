@@ -13,7 +13,91 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body >
+    <header class="container header">
+        <p class="header-logo">Dashboard</p>
+        <button class="header-button-open js-open-menu">
+            <svg width="24" height="24">
+                <use href="burger-menu.svg#icon-burger-menu"></use>
+            </svg>
+        </button>
+        <div class="mobile-menu js-menu-container">
+            <div class="mobile-menu-container">
+                <button class="mobile-menu-close-btn js-close-menu">
+                    <svg class="mobile-menu-close-icon" width="8" height="8">
+                        <use href="close-menu.svg#icon-close-menu"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-list-item">
+                        <a class="mobile-menu-item-link">
+                            <svg class="sidebar-list-icon" width="24" height="24">
+                                <use href="icons.svg#icon-key-square"></use>
+                            </svg>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="mobile-menu-list-item">
+                        <a class="mobile-menu-item-link">
+                            <svg class="sidebar-list-icon" width="24" height="24">
+                                <use href="icons.svg#icon-d-square"></use>
+                            </svg>
+                            Product
+                            <svg class="icon-chevron" width="16" height="16">
+                                <use href="icons.svg#icon-chevron-right"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-menu-list-item">
+                        <a class="mobile-menu-item-link mobile-menu-link-current"> 
+                            <svg class="sidebar-list-icon" width="24" height="24">
+                                <use href="icons.svg#icon-user-square"></use>
+                            </svg>
+                            Customers
+                            <svg class="icon-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12L10 8L6 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-menu-list-item">
+                        <a class="mobile-menu-item-link"> 
+                            <svg class="sidebar-list-icon" width="24" height="24">
+                                <use href="icons.svg#icon-wallet-money"></use>
+                            </svg>
+                            Income
+                            <svg class="icon-chevron" width="16" height="16">
+                                <use href="icons.svg#icon-chevron-right"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-menu-list-item">
+                        <a class="mobile-menu-item-link">
+                            <svg class="sidebar-list-icon" width="24" height="24">
+                                <use href="icons.svg#icon-discount-shape"></use>
+                            </svg>
+                            Promote
+                            <svg class="icon-chevron" width="16" height="16">
+                                <use href="icons.svg#icon-chevron-right"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-menu-list-item">
+                        <a class="mobile-menu-item-link">
+                            <svg class="sidebar-list-icon" width="24" height="24">
+                                <use href="icons.svg#icon-message-question"></use>
+                            </svg>
+                            Help
+                            <svg class="icon-chevron" width="16" height="16">
+                                <use href="icons.svg#icon-chevron-right"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <div class="container">
+        
         <aside class="sidebar-container">
             <nav class="sidebar-navigation">
                 <div class="sidebar-logo">
@@ -41,7 +125,7 @@
                             <use href="icons.svg#icon-d-square"></use>
                         </svg>
                         Product 
-                        <svg class="sidebar-icon-chevron" width="16" height="16">
+                        <svg class="icon-chevron" width="16" height="16">
                             <use href="icons.svg#icon-chevron-right"></use>
                         </svg>
                         </a>
@@ -52,7 +136,7 @@
                             <use href="icons.svg#icon-user-square"></use>
                         </svg>
                         Customers
-                        <svg class="sidebar-icon-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="icon-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 12L10 8L6 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                         </a>
@@ -63,7 +147,7 @@
                             <use href="icons.svg#icon-wallet-money"></use>
                         </svg>
                         Income
-                        <svg class="sidebar-icon-chevron" width="16" height="16">
+                        <svg class="icon-chevron" width="16" height="16">
                             <use href="icons.svg#icon-chevron-right"></use>
                         </svg>
                         </a>
@@ -74,7 +158,7 @@
                             <use href="icons.svg#icon-discount-shape"></use>
                         </svg>
                         Promote
-                        <svg class="sidebar-icon-chevron" width="16" height="16">
+                        <svg class="icon-chevron" width="16" height="16">
                             <use href="icons.svg#icon-chevron-right"></use>
                         </svg>
                         </a>
@@ -85,7 +169,7 @@
                             <use href="icons.svg#icon-message-question"></use>
                         </svg>
                         Help
-                        <svg class="sidebar-icon-chevron" width="16" height="16">
+                        <svg class="icon-chevron" width="16" height="16">
                             <use href="icons.svg#icon-chevron-right"></use>
                         </svg>
                         </a>
@@ -216,5 +300,7 @@
         </section>
     </main>
     </div>
+<script src="./js/mobile-menu.js"></script>
+
 </body>
 </html>
